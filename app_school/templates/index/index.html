@@ -1,0 +1,29 @@
+{% extends "web_layout/trang-chu-master.html" %}    
+{% block head %}
+
+{{ super()}}
+{% block title %} Trang chính {% endblock %}
+
+{% endblock %}
+
+<!-- Content Block -->
+
+{% block content %}
+
+<div class="content">
+    <div class="row">
+        <h2 class="c3-title ml-auto mr-auto mb-5">Hệ thống quản lý Trường THPT</h2>
+        <img src="{{ url_for('static' , filename ='trang_chu/images/1.-Nguyen-trai-ba-dinh.jpg') }}" alt="about" class="img-responsive vh-100 col-md-12">
+    </div>
+</div>
+
+
+{% endblock %}
+
+<!-- Script block -->
+
+{% block script %}
+
+{{ super()}}
+
+{% endblock %}

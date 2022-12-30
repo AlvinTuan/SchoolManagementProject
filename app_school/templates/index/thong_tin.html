@@ -1,0 +1,53 @@
+{% extends "web_layout/trang-chu-master.html" %}    
+{% block head %}
+
+{{ super()}}
+{% block title %} Trang thông tin {% endblock %}
+
+{% endblock %}
+
+<!-- Content Block -->
+
+{% block content %}
+<div class="content">
+    <div class="container-fluid">
+        <div class="page-title-box">
+            <div class="row align-items-center">
+
+                <div class="col-sm-6">
+                    <h4 class="page-title">Thông tin</h4>
+                </div>
+                    <div class="col-md-6 col-lg-6 col-xl-7">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p style="color:whitesmoke">
+                                    <b>NHỮNG THÔNG TIN CẦN THIẾT</b><br />
+                                    <b>Email:</b> <a href="#" style="color: white;">nguyentrai-badinh@gmail.com</a>
+                                    <br>
+                                    <b>Điện Thoại:</b> <span>043 845 6680</span>
+                                    <br>
+                                    <b>Địa chỉ:</b> <span>50 Nam Cao, Ba Đình, Hà Nội</span>
+                                    <br>
+                                    <b>Website:</b> <a href="#" style="color: white;">www.thptnguyentrai-badinh.edu.vn</a>
+                                </p>
+                            </div>
+                        </div><!-- end col -->
+                    </div>
+        
+                </div>
+            </div>
+            <!-- container-fluid -->
+        
+        </div>
+    </div>
+</div>
+                
+{% endblock %}
+
+<!-- Script block -->
+
+{% block script %}
+
+{{ super()}}
+
+{% endblock %}
